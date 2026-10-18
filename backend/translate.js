@@ -3,7 +3,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const router = express.Router();
 
-const API_KEY = 'AIzaSyALYxmnFiDT1E4vq-3hz8AWTNXZuD03slo';
+const API_KEY = '';
 
 router.post('/translate', async (req, res) => {
   const { q, target } = req.body;
